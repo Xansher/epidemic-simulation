@@ -1,0 +1,19 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+}
+.menu-wrapper {
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+.menu-container{
+    width: 20%;
+   
+    position: fixed;
+}
+
+.router-container{
+    width: 80%;
+    min-height: 100vh;
+}

@@ -1,0 +1,28 @@
+<div class="menu-container">
+    <div class="image-container">
+        <img [src]="'assets/epidemic.jpg'">
+    </div>
+    <div>
+        <a routerLink="/" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu-item-active" class="menu-item">
+            <div class="menu-item-container">
+                <div class="menu-item-icon">
+                    <mat-icon>home</mat-icon>
+                </div>
+                <div class="menu-item-label">
+                   Home Page
+                </div> 
+            </div>      
+        </a>
+        <a routerLink="/simulations" routerLinkActive="menu-item-active" class="menu-item">
+            <div class="menu-item-container">
+                <div class="menu-item-icon">
+                    <mat-icon>list</mat-icon>
+                </div>
+                <div class="menu-item-label">
+                   Simulations
+                </div> 
+            </div>      
+        </a>
+    </div>
+    
+</div>

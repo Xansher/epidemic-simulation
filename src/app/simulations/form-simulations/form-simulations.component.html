@@ -1,0 +1,49 @@
+<form [formGroup]="form" (submit)="saveChanges()">
+    <div class="three-columns">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name">
+            <mat-error>Field name is required</mat-error>
+        </mat-form-field>
+    </div>
+    
+    <div class="three-columns">
+        <mat-form-field appearance="outline">
+            <mat-label>Population</mat-label>
+            <input matInput formControlName="p">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Infected</mat-label>
+            <input matInput formControlName="i">
+        </mat-form-field>
+    </div>
+    <div class="three-columns">
+        <mat-form-field appearance="outline">
+            <mat-label>People infected by one person</mat-label>
+            <input matInput formControlName="r">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mortality rate</mat-label>
+            <input matInput formControlName="m">
+        </mat-form-field>
+    </div>
+    <div class="three-columns">
+        <mat-form-field appearance="outline">
+            <mat-label>Days to cure</mat-label>
+            <input matInput formControlName="ti">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Days to death</mat-label>
+            <input matInput formControlName="tm">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Simulation days</mat-label>
+            <input matInput formControlName="ts">
+        </mat-form-field>
+    </div>
+    <div class="button-container">
+        <button mat-flat-button (click)="saveChanges()" color="primary">Save changes</button>
+    </div>
+    
+    
+</form>

@@ -1,0 +1,21 @@
+form {
+    width: 100%;
+}
+
+mat-form-field{
+    width: 100%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.three-columns{
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}

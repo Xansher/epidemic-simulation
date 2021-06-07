@@ -1,0 +1,72 @@
+.index-container{
+    position: relative;
+}
+
+
+.label-container {
+    color: black;
+    background-color: rgb(197, 197, 197);
+    padding: 1em;
+    box-shadow: 0 2px 3px rgb(165, 165, 165);
+}
+
+.content-container{
+    padding: 0 2em;
+}
+
+table {
+    width: 100%;
+}
+
+.buttons-container{
+    width: 100%;
+    padding: 1em;
+}
+.button {
+    padding: 0 1em;
+    border-radius: 4px;
+}
+.button-green {
+    background-color: rgb(40, 192, 40);
+    border: 1px solid green;
+    box-shadow: 2px 2px 2px green;
+}
+
+.actions-container{
+    display: flex;
+    flex: 50%;
+    
+}
+.action-button {
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+
+.div-container{
+    position:absolute;
+    top: -25%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-container {
+    display: block;
+    box-shadow: 4px 4px 11px black;
+    padding: 0.5em;
+    background-color: rgb(233, 224, 212);
+}
+
+.x-button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-content-container{
+    padding: 0 2em;
+}
